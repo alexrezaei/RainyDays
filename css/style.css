@@ -1,5 +1,24 @@
+/* CSS RESET */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    margin: 0px 140px;
+}
+
+/* utlity */
+
+.header-primary {
+    color: #f7933c;
+    font-size: 57px;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+    height: 143px;
+}
+
+
