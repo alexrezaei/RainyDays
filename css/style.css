@@ -46,7 +46,7 @@ main {
 
 .navbar .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -101,6 +101,9 @@ main {
 .container {
   margin: 0 auto;
 }
+.showcase .showcase-left {
+  margin: 0 auto;
+}
 
 .showcase .showcase-left h1 {
   margin-top: 15.9rem;
@@ -112,7 +115,7 @@ main {
 .showcase .showcase-right {
   height: 46.5rem;
   width: 81.2rem;
-  margin-left: 83px;
+  margin: 0 auto;
 }
 
 .showcase .showcase-right img {
@@ -120,6 +123,7 @@ main {
   width: 100%;
   border-radius: 4.5rem;
   image-rendering: -webkit-optimize-contrast;
+  margin-left: 83px;
 }
 
 .showcase .showcase-left .cta {
@@ -146,20 +150,23 @@ main {
 
 .product-home .container {
   display: flex;
+  margin: 0 auto;
 }
 .product-home .container .content-left {
-  margin-top: 10rem;
+  width: 67.4rem;
+  height: 62.8rem;
+  margin: 0 auto;
 }
 
 .product-home .container .content-left img {
-  width: 67.4rem;
-  height: 62.8rem;
+  margin-top: 10rem;
+  width: 100%;
 }
 
 .product-home .container .content-right {
-  margin-top: 12rem;
-  margin-left: 22.4rem;
-  width: 100%;
+  margin: 0 auto;
+  padding-top: 12rem;
+  padding-left: 22.4rem;
 }
 .product-home .container .content-right h2 {
   margin-bottom: 6rem;
@@ -174,7 +181,7 @@ main {
 .product-home .container .content-right p {
   font-size: 2rem;
   padding: 2rem 0;
-  max-width: 526px;
+  max-width: 401px;
 }
 .product-home .container .content-right img {
   width: 100%;
@@ -193,7 +200,7 @@ main {
   border-radius: 1.9rem;
 }
 
-@media only screen and (max-width: 1872px) {
+@media only screen and (min-width: 1872px) {
   .showcase .container .showcase-left .cta {
     display: block;
     margin: 1rem 0;
@@ -208,7 +215,7 @@ main {
   }
 }
 
-@media only screen and (max-width: 1575px) {
+@media only screen and (min-width: 1575px) {
   .navbar .container li a {
     font-size: 2rem;
     text-decoration: none;
@@ -216,7 +223,7 @@ main {
     margin: 5.9rem 0 4.3rem 0;
   }
 }
-@media only screen and (max-width: 1515px) {
+@media only screen and (min-width: 1515px) {
   body {
     margin: 0;
   }
@@ -235,7 +242,6 @@ main {
   .showcase .showcase-right img {
     height: 100%;
     width: 100%;
-    margin-left: ;
     border-radius: 4.5rem;
     image-rendering: -webkit-optimize-contrast;
   }
@@ -271,4 +277,7 @@ main {
     height: 100%;
     width: 100%;
   }
+}
+
+@media only screen and (min-width: 1024px) {
 }
