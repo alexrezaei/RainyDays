@@ -200,7 +200,7 @@ main {
   border-radius: 1.9rem;
 }
 
-@media only screen and (min-width: 1872px) {
+@media only screen and (max-width: 1872px) {
   .showcase .container .showcase-left .cta {
     display: block;
     margin: 1rem 0;
@@ -215,7 +215,7 @@ main {
   }
 }
 
-@media only screen and (min-width: 1575px) {
+@media only screen and (max-width: 1575px) {
   .navbar .container li a {
     font-size: 2rem;
     text-decoration: none;
@@ -223,7 +223,7 @@ main {
     margin: 5.9rem 0 4.3rem 0;
   }
 }
-@media only screen and (min-width: 1515px) {
+@media only screen and (max-width: 1515px) {
   body {
     margin: 0;
   }
@@ -279,5 +279,9 @@ main {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 980px) {
+  .navbar .container form,
+  .navbar i {
+    display: none;
+  }
 }
